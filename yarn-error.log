@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add jsonwebtoken
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Local\Yarn\bin;C:\Users\ASUS\AppData\Local\.meteor;C:\Program Files\MongoDB\Server\4.2\bin;
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\personal\srilanka\MERN\mern-risk\risk-back-end\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+  	"name": "risk-back-end",
+  	"version": "1.0.0",
+  	"description": "This is backend of ecommerce risk",
+  	"main": "index.js",
+  	"scripts": {
+  		"start": "nodemon ./src/index.server.js"
+  	},
+  	"keywords": [
+  		"ecommerce",
+  		"risk",
+  		"mern",
+  		"project",
+  		"backend",
+  		"api",
+  		"api"
+  	],
+  	"author": "Binayak Ray",
+  	"license": "ISC",
+  	"dependencies": {
+  		"bcrypt": "^5.0.0",
+  		"body-parser": "^1.19.0",
+  		"dotenv": "^8.2.0",
+  		"express": "^4.17.1",
+  		"express-validator": "^6.8.1",
+  		"mongoose": "^5.11.8"
+  	},
+  	"devDependencies": {
+  		"nodemon": "^2.0.6"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
